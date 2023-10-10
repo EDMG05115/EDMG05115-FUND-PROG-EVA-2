@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 11:08:38 p. m."/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUwyMVBNRlU7MjAyMy0xMC0wOTsxMTowNDozOCBwLiBtLjsyOTUx"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUwyMVBNRlU7MjAyMy0xMC0wOTsxMTowODozOCBwLiBtLjsxOzMwNjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="califa" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingresa la calificaci&#243;n&quot;" newline="True"/>
+            <input variable="califa"/>
+            <if expression="califa &gt;= 70">
+                <then>
+                    <output expression="&quot;Aprobaste: Calificaci&#243;n mayor o igual que 70&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No acredita: Calificaci&#243;n menor que 70&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Fin del programa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
